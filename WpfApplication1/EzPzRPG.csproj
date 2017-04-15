@@ -62,11 +62,12 @@
     <Compile Include="classes\Boon.cs" />
     <Compile Include="classes\Character.cs" />
     <Compile Include="classes\Currency.cs" />
-    <Compile Include="classes\IAttack.cs" />
+    <Compile Include="interfaces\IAttack.cs" />
     <Compile Include="classes\Item.cs" />
     <Compile Include="classes\SlowpokeServer.cs" />
     <Compile Include="classes\Spell.cs" />
     <Compile Include="classes\Weapon.cs" />
+    <Compile Include="interfaces\IEntity.cs" />
     <Compile Include="interfaces\IStatistic.cs" />
     <Compile Include="ServerList.cs">
       <DependentUpon>ServerList.xsd</DependentUpon>
